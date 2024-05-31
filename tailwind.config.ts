@@ -8,9 +8,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      gridTemplateColumns: {
-        '13': 'repeat(13, minmax(0, 1fr))',
-      },
       colors: {
         gray: {
           50: '#fafafa',
@@ -23,13 +20,12 @@ const config: Config = {
           700: '#3f3f46',
           800: '#27272a',
           900: '#18181b',
+          custom: '#d7d7d7', // APPROXIMATELY rgb(215, 215, 215)
         },
-      },
-    },
-    keyframes: {
-      shimmer: {
-        '100%': {
-          transform: 'translateX(100%)',
+        blue: {
+          400: '#71717a',
+          500: '#52525b',
+          600: '#3f3f46',
         },
       },
     },

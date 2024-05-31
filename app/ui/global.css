@@ -16,3 +16,45 @@ input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+/* FIXING A FUCK UP */
+
+.grayscale-bg {
+  background-color: #333 !important; /* GREYSCALE PLEASE */
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.grayscale-button {
+  background-color: #333 !important; /* GREYSCALE PLEASE */
+  color: #27272a;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.grayscale-button:hover {
+  background-color: #464646 !important; /* GREYSCALE PLEASE */
+}
+
+/* HOVER STYLES FOR BUTTONS */
+button,
+.button {
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover,
+.button:hover {
+  background-color: #5a5a5a; 
+}
+
+/* ENSURE LINKS HAVE SIMILAR HOVER EFFECTS */
+a {
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  background-color: #5a5a5a;
+}

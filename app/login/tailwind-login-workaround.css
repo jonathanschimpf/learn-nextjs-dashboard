@@ -1,0 +1,11 @@
+.tailwind-sucks-override {
+  background-color: #333 !important; /* GREYSCALE PLEASE */
+}
+
+.tailwind-sucks-override-button {
+  background-color: #333 !important; /* GREYSCALE PLEASE */
+}
+
+.tailwind-sucks-override-button:hover {
+  color: rgb(255, 255, 255) !important;
+}

@@ -11,6 +11,7 @@ import {
 import { Button } from '@/app/ui/button';
 import { createInvoice } from '@/app/lib/actions';
 import { useFormState } from 'react-dom';
+import './tailwind-sucks-workaround-specificity.css';
 
 export default function Form({ customers }: { customers: CustomerField[] }) {
   const initialState = { message: null, errors: {} };
@@ -146,7 +147,7 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
         >
           Cancel
         </Link>
-        <Button type="submit">Create Invoice</Button>
+        <Button className="tailwind-sucks-ensurewhitefont" type="submit">Create Invoice</Button>
       </div>
     </form>
   );
