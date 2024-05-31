@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/static/v1?label=Language&message=Tailwind&color=orange)
  ![License](https://img.shields.io/static/v1?label=Language&message=Vercel&color=blue)
  [License](https://img.shields.io/static/v1?label=Database&message=PostgreSQL&color=green) 
-!
+
 
 <p>&nbsp;<p>
 
