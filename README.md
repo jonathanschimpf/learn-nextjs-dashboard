@@ -38,7 +38,7 @@ Used by some of the world's largest companies, Next.js enables you to create hig
 
 <p>&nbsp;‏‏‎‏‏‎ ‎<strong>+</strong></p>
 
-`Vercel` =>‏‏‎ ‎ ‏‏‎ ‎[Vercel is the Frontend Cloud.](https://vercel.com/) Build, scale, and secure a faster, personalized web. Develop with your favorite tools. Launch globally, instantly. Keep pushing. 
+`Vercel` =>‏‏‎ ‎ ‏‏‎ ‎[Vercel is the Frontend Cloud.](https://vercel.com/) Build, scale, and secure a faster, personalized web. Develop with your favorite tools. Launch globally, instantly. Keep pushing. PostgreSQL database is stored/seeded there to store the employee information and their invoices for this demo.
 
 
 <p>&nbsp;<p>
