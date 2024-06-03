@@ -1,5 +1,3 @@
-/* global.css */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,7 +14,7 @@ input[type='number']::-webkit-outer-spin-button {
 }
 
 .grayscale-bg {
-  background-color: #333 !important; /* GREYSCALE PLEASE */
+  background-color: #333; /* GRAYSCALE PLEASE */
 }
 
 .white-text {
@@ -24,7 +22,7 @@ input[type='number']::-webkit-outer-spin-button {
 }
 
 .grayscale-button {
-  background-color: #333 !important; /* GREYSCALE PLEASE */
+  background-color: #333; /* GRAYSCALE PLEASE */
   color: #27272a;
   border: none;
   padding: 8px 16px;
@@ -32,15 +30,15 @@ input[type='number']::-webkit-outer-spin-button {
 }
 
 #grayscale-button-create-invoice {
-  background-color: #333 !important; /* GREYSCALE PLEASE */
+  background-color: #333; /* GRAYSCALE PLEASE */
 }
 
 #grayscale-button-create-invoice:hover {
-  background-color: #464646 !important; /* GREYSCALE PLEASE */
+  background-color: #464646; /* GRAYSCALE PLEASE */
 }
 
 .grayscale-button:hover {
-  background-color: #464646 !important; /* GREYSCALE PLEASE */
+  background-color: #464646; /* GRAYSCALE PLEASE */
 }
 
 /* HOVER STYLES FOR BUTTONS */
@@ -54,6 +52,22 @@ button:hover,
   background-color: #5a5a5a;
 }
 
+/* INPUT FIELD OUTLINES */
+input:focus {
+  outline: none !important;
+  border: 2px solid #ccc !important;
+  outline-offset: 2px !important;
+}
+
+input:focus-visible {
+  outline: none !important;
+  border: 2px solid #ccc !important;
+}
+
+input::-moz-focus-inner {
+  border: 0 !important;
+}
+
 /* ENSURE LINKS HAVE SIMILAR HOVER EFFECTS */
 a {
   transition: color 0.3s ease-in-out;
@@ -61,11 +75,11 @@ a {
 
 a:hover {
   background-color: #5a5a5a;
+}
 
-  input:focus {
-    background-color: #f0f0f0 !important; /* Light gray background */
-    color: #333 !important; /* Darker text for better contrast */
-  }
+input:focus {
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Darker text for better contrast */
 }
 
 /* Chrome, Safari */
@@ -73,39 +87,12 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-  -webkit-box-shadow: 0 0 0 30px white inset !important;
-  -webkit-text-fill-color: #333 !important;
+  -webkit-box-shadow: 0 0 0 30px white inset;
+  -webkit-text-fill-color: #333;
 }
 
 /* Firefox */
 input:-moz-ui-autofill {
-  background-color: white !important;
-  color: #333 !important;
-}
-
-/* REVENUE CHART */
-
-.revenue-chart-container {
-  display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-  gap: 0.25rem; /* Decrease gap to provide more space */
-  align-items: end;
-  height: 350px;
-}
-
-.revenue-bar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.revenue-bar div {
-  width: 100%;
-  background-color: #93c5fd;
-}
-
-.revenue-bar p {
-  margin-top: 4px;
-  font-size: 0.75rem;
-  color: #4b5563;
+  background-color: white;
+  color: #333;
 }

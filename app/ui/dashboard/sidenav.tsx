@@ -7,7 +7,10 @@ import { signOut } from '@/auth';
 export default function SideNav() {
   return (
     <div className="flex h-full flex-col px-3 py-4 md:px-2">
-      <Link className="mb-2 flex h-20 items-end justify-start rounded-md bg-blue-600 p-4 md:h-40" href="/">
+      <Link
+        className="mb-2 flex h-20 items-end justify-start rounded-md bg-gray-800 p-4 hover:bg-gray-600 md:h-40"
+        href="/"
+      >
         <div className="w-32 text-white md:w-40">
           <AcmeLogo />
         </div>
@@ -21,7 +24,7 @@ export default function SideNav() {
             await signOut();
           }}
         >
-          <button className="flex h-[48px] w-full grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-gray-custom hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3">
+          <button className="flex h-[48px] w-full grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-gray-800 hover:text-white md:flex-none md:justify-start md:p-2 md:px-3">
             <PowerIcon className="w-6" />
             <div className="hidden md:block">Sign Out</div>
           </button>
