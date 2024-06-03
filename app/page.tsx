@@ -15,10 +15,10 @@ export default function Page() {
       <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
           <p className={`${lusitana.className} text-xl  md:text-3xl md:leading-normal`}>
-            <strong>Welcome to a Next.js Dashboard!</strong> This is the end result of the {' '}
-            <a href="https://nextjs.org/learn/" className="text-blue-500">
+            <strong>Welcome to a Next.js Dashboard project.</strong> This is the end result of the {' '}
+            <a href="https://nextjs.org/learn/" className="learnjscourselink" target="_blank">
                Learn Next.js Course
-            </a>, brought to you by Vercel. A course with 16 chapters that take you from the React library to the Next.js framework.
+            </a>, brought to you by <a href="https://vercel.com/" className="verceldotcom" target="_blank">Vercel</a>. A course with 16 chapters that aims to take you from the React library to the Next.js framework.
           </p>
           <Link href="/login" className="flex tailwind-override-button items-center gap-5 self-start rounded-lg gray-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base">
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />

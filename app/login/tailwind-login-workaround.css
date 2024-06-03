@@ -9,3 +9,7 @@
 .tailwind-override-button:hover {
   color: rgb(255, 255, 255) !important;
 }
+
+.tailwind-override-button:focus {
+  background-color: #464646 !important; /* GREYSCALE PLEASE */
+}

@@ -13,8 +13,28 @@ input[type='number']::-webkit-outer-spin-button {
   margin: 0;
 }
 
+.learnjscourselink {
+  color: rgb(85, 2, 85) !important;
+  background-color: transparent !important;
+}
+
+.learnjscourselink:hover {
+  color: blue !important;
+  background-color: transparent !important;
+}
+
+.verceldotcom {
+  color: rgb(0, 76, 101) !important;
+  background-color: transparent !important;
+}
+
+.verceldotcom:hover {
+  color: orange !important;
+  background-color: transparent !important;
+}
+
 .grayscale-bg {
-  background-color: #333; /* GRAYSCALE PLEASE */
+  background-color: #333 !important; /* GRAYSCALE PLEASE */
 }
 
 .white-text {
@@ -22,7 +42,7 @@ input[type='number']::-webkit-outer-spin-button {
 }
 
 .grayscale-button {
-  background-color: #333; /* GRAYSCALE PLEASE */
+  background-color: #333 !important; /* GRAYSCALE PLEASE */
   color: #27272a;
   border: none;
   padding: 8px 16px;
@@ -30,15 +50,26 @@ input[type='number']::-webkit-outer-spin-button {
 }
 
 #grayscale-button-create-invoice {
-  background-color: #333; /* GRAYSCALE PLEASE */
+  background-color: #333 !important; /* GRAYSCALE PLEASE */
 }
 
 #grayscale-button-create-invoice:hover {
-  background-color: #464646; /* GRAYSCALE PLEASE */
+  background-color: #464646 !important; /* GRAYSCALE PLEASE */
 }
 
 .grayscale-button:hover {
-  background-color: #464646; /* GRAYSCALE PLEASE */
+  background-color: #464646 !important; /* GRAYSCALE PLEASE */
+}
+
+/* CREATE INVOICE BUTTON STYLES */
+.create-invoice-button {
+  background-color: #333 !important; /* GRAYSCALE PLEASE */
+  color: #fff !important;
+}
+
+.create-invoice-button:hover {
+  background-color: #464646 !important; /* GRAYSCALE PLEASE */
+  color: #fff !important;
 }
 
 /* HOVER STYLES FOR BUTTONS */
@@ -78,11 +109,11 @@ a:hover {
 }
 
 input:focus {
-  background-color: #f0f0f0; /* Light gray background */
-  color: #333; /* Darker text for better contrast */
+  background-color: #f0f0f0 !important;
+  color: #333 !important;
 }
 
-/* Chrome, Safari */
+/* CHROME / SAFARI [WE ALL KNOW WHICH ONE IS BETTER] */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
@@ -91,7 +122,7 @@ input:-webkit-autofill:active {
   -webkit-text-fill-color: #333;
 }
 
-/* Firefox */
+/* FIREFOX */
 input:-moz-ui-autofill {
   background-color: white;
   color: #333;

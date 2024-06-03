@@ -18,7 +18,7 @@ export default function LoginForm() {
     <form action={dispatch} className="space-y-3">
       <div className="flex-1 rounded-lg bg-gray-50 px-6 pb-4 pt-8">
         <h1 className={`${lusitana.className} mb-3 text-2xl`}>
-          Please log in to continue.
+          Please log in using the form placeholders to continue.
         </h1>
         <div className="w-full">
           <div>
@@ -83,7 +83,7 @@ function LoginButton() {
   const { pending } = useFormStatus();
 
   return (
-    <Button className="mt-4 w-full grayscale-button" aria-disabled={pending}>
+    <Button className="mt-4 w-full tailwind-override-button" aria-disabled={pending}>
       <span className="white-text">Log in</span> <ArrowRightIcon className="ml-auto h-5 w-5 text-gray-50" />
     </Button>
   );

@@ -7,7 +7,7 @@ export function CreateInvoice() {
     <Link
       id="grayscale-button-create-invoice"
       href="/dashboard/invoices/create"
-      className="hover:gray-500 flex h-10 items-center rounded-lg bg-blue-600 px-4 text-sm font-medium text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+      className="create-invoice-button hover:gray-500 flex h-10 items-center rounded-lg bg-gray-800 px-4 text-sm font-medium text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
     >
       <span className="hidden md:block">Create Invoice</span>{' '}
       <PlusIcon className="h-5 md:ml-4" />
