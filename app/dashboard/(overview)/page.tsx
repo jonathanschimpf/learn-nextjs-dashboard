@@ -20,13 +20,17 @@ export default async function Page() {
           <CardWrapper />
         </Suspense>
       </div>
-      <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-4 lg:grid-cols-8">
-        <Suspense fallback={<RevenueChartSkeleton />}>
-          <RevenueChart />
-        </Suspense>
-        <Suspense fallback={<LatestInvoicesSkeleton />}>
-          <LatestInvoices />
-        </Suspense>
+      <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-3 lg:grid-cols-8">
+        <div className="md:col-span-2 lg:col-span-6">
+          <Suspense fallback={<RevenueChartSkeleton />}>
+            <RevenueChart />
+          </Suspense>
+        </div>
+        <div className="md:col-span-1 lg:col-span-2">
+          <Suspense fallback={<LatestInvoicesSkeleton />}>
+            <LatestInvoices />
+          </Suspense>
+        </div>
       </div>
     </main>
   );

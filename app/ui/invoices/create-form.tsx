@@ -146,7 +146,7 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
         >
           Cancel
         </Link>
-        <Button className="tailwind-sucks-ensurewhitefont" type="submit">Create Invoice</Button>
+        <Button id="grayscale-button-create-invoice" type="submit">Create Invoice</Button>
       </div>
     </form>
   );

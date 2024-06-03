@@ -1,3 +1,5 @@
+/* global.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,17 +9,11 @@ input[type='number'] {
   appearance: textfield;
 }
 
-input[type='number']::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
+input[type='number']::-webkit-inner-spin-button,
 input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
-/* FIXING A FUCK UP */
 
 .grayscale-bg {
   background-color: #333 !important; /* GREYSCALE PLEASE */
@@ -35,6 +31,14 @@ input[type='number']::-webkit-outer-spin-button {
   border-radius: 4px;
 }
 
+#grayscale-button-create-invoice {
+  background-color: #333 !important; /* GREYSCALE PLEASE */
+}
+
+#grayscale-button-create-invoice:hover {
+  background-color: #464646 !important; /* GREYSCALE PLEASE */
+}
+
 .grayscale-button:hover {
   background-color: #464646 !important; /* GREYSCALE PLEASE */
 }
@@ -47,7 +51,7 @@ button,
 
 button:hover,
 .button:hover {
-  background-color: #5a5a5a; 
+  background-color: #5a5a5a;
 }
 
 /* ENSURE LINKS HAVE SIMILAR HOVER EFFECTS */
@@ -57,4 +61,51 @@ a {
 
 a:hover {
   background-color: #5a5a5a;
+
+  input:focus {
+    background-color: #f0f0f0 !important; /* Light gray background */
+    color: #333 !important; /* Darker text for better contrast */
+  }
+}
+
+/* Chrome, Safari */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  -webkit-text-fill-color: #333 !important;
+}
+
+/* Firefox */
+input:-moz-ui-autofill {
+  background-color: white !important;
+  color: #333 !important;
+}
+
+/* REVENUE CHART */
+
+.revenue-chart-container {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 0.25rem; /* Decrease gap to provide more space */
+  align-items: end;
+  height: 350px;
+}
+
+.revenue-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.revenue-bar div {
+  width: 100%;
+  background-color: #93c5fd;
+}
+
+.revenue-bar p {
+  margin-top: 4px;
+  font-size: 0.75rem;
+  color: #4b5563;
 }

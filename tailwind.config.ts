@@ -2,8 +2,9 @@ import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,ts,jsx,tsx,mdx}',  // Reflecting the src directory structure
     './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
@@ -20,7 +21,7 @@ const config: Config = {
           700: '#3f3f46',
           800: '#27272a',
           900: '#18181b',
-          custom: '#d7d7d7', // APPROXIMATELY rgb(215, 215, 215)
+          custom: '#d7d7d7',
         },
         blue: {
           400: '#71717a',
