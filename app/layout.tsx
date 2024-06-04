@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     default: 'Next.js Dashboard',
   },
   description: 'The official Learn Next.js Dashboard built with App Router.',
-  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+  metadataBase: new URL('https://learn-nextjs-dashboard-jonathanschimpf.vercel.app'),
   openGraph: {
     images: '/opengraph-image.png',
   },
