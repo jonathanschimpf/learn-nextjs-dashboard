@@ -7,6 +7,7 @@
 ![License](https://img.shields.io/static/v1?label=Language&message=Tailwind&color=orange)
  ![License](https://img.shields.io/static/v1?label=Language&message=Vercel&color=blue)
  ![License](https://img.shields.io/static/v1?label=Database&message=PostgreSQL&color=green)
+ ![License](https://img.shields.io/static/v1?label=Authentication&message=NextAuth&color=yellow)
 
 
 <p>&nbsp;<p>
@@ -41,6 +42,11 @@ Used by some of the world's largest companies, Next.js enables you to create hig
 <p>&nbsp;‏‏‎‏‏‎ ‎<strong>+</strong></p>
 
 `Vercel` =>‏‏‎ ‎ ‏‏‎ ‎[Vercel is the Frontend Cloud.](https://vercel.com/) Build, scale, and secure a faster, personalized web. Develop with your favorite tools. Launch globally, instantly. Keep pushing. PostgreSQL database is stored/seeded there to store the employee information and their invoices for this demo.
+
+<p>&nbsp;‏‏‎‏‏‎ ‎<strong>+</strong></p>
+
+`NextAuth.js` =>‏‏‎ ‎ ‏‏‎ ‎[Authentication for Next.js](https://next-auth.js.org/) Open Source. Full Stack. Own Your Data. | Easy. Flexible. Secure. | Add authentication in minutes!
+
 
 
 <p>&nbsp;<p>
