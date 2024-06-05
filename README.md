@@ -1,13 +1,14 @@
 ## Learn Next.js Course — Dashboard built with App Router
 
-![License](https://img.shields.io/static/v1?label=Language&message=JavaScript&color=yellow)
-![License](https://img.shields.io/static/v1?label=Language&message=HTML5&color=orange) ![License](https://img.shields.io/static/v1?label=Language&message=CSS3&color=blue)
+![License](https://img.shields.io/static/v1?label=Language&message=JavaScript&color=red)
+![License](https://img.shields.io/static/v1?label=Language&message=HTML5&color=orange) 
+![License](https://img.shields.io/static/v1?label=Language&message=CSS3&color=blue)
  ![License](https://img.shields.io/static/v1?label=Framework&message=Next.js&color=green) 
-![License](https://img.shields.io/static/v1?label=Framework&message=Typescript&color=yellow)
+![License](https://img.shields.io/static/v1?label=Framework&message=Typescript&color=red)
 ![License](https://img.shields.io/static/v1?label=Language&message=Tailwind&color=orange)
  ![License](https://img.shields.io/static/v1?label=Language&message=Vercel&color=blue)
  ![License](https://img.shields.io/static/v1?label=Database&message=PostgreSQL&color=green)
- ![License](https://img.shields.io/static/v1?label=Authentication&message=NextAuth&color=yellow)
+ ![License](https://img.shields.io/static/v1?label=Authentication&message=NextAuth&color=red)
 
 
 <p>&nbsp;<p>
