@@ -60,7 +60,8 @@ input[type='number']::-webkit-outer-spin-button {
   color: #fff !important;
 }
 
-.create-invoice-button:hover {
+.create-invoice-button:hover,
+.create-invoice-button:active {
   background-color: #464646 !important; /* GRAYSCALE PLEASE */
   color: #fff !important;
 }
@@ -72,7 +73,9 @@ button,
 }
 
 button:hover,
-.button:hover {
+button:active,
+.button:hover,
+.button:active {
   background-color: #5a5a5a;
 }
 
