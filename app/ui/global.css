@@ -12,24 +12,17 @@ input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
-.learnjscourselink {
-  color: rgb(85, 2, 85) !important;
-  background-color: transparent !important;
-}
-
-.learnjscourselink:hover {
-  color: blue !important;
-  background-color: transparent !important;
-}
-
+.learnjscourselink,
 .verceldotcom {
-  color: rgb(0, 76, 101) !important;
+  color: rgb(0, 85, 255) !important;
   background-color: transparent !important;
 }
 
-.verceldotcom:hover {
-  color: orange !important;
+.learnjscourselink:hover,
+.learnjscourselink:active,
+.verceldotcom:hover,
+.verceldotcom:active {
+  color: rgb(153, 0, 255) !important;
   background-color: transparent !important;
 }
 
