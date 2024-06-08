@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: {
     template: '%s | Next.js Dashboard',
-    default: 'Learn Next.js — App Router Dashboard + PostgreSQL database',
+    default: 'Learn Next.js — App Router Dashboard + PostgreSQL Database',
   },
   description: 'Explore the foundations of Next.js by building a fully functional demo website that uses all of the latest features in this guided course.',
   metadataBase: new URL('https://learn-nextjs-dashboard-jonathanschimpf.vercel.app'),
