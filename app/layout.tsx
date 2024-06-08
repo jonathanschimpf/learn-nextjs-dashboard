@@ -5,9 +5,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: {
     template: '%s | Next.js Dashboard',
-    default: 'Next.js Dashboard',
+    default: 'Learn Next.js — Dashboard built with App Router',
   },
-  description: 'The official Learn Next.js Dashboard built with App Router.',
+  description: 'Explore the foundations of Next.js by building a fully functional demo website that uses all of the latest features in this guided course.',
   metadataBase: new URL('https://learn-nextjs-dashboard-jonathanschimpf.vercel.app'),
   openGraph: {
     images: '/opengraph-image.png',

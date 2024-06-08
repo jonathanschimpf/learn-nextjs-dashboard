@@ -17,9 +17,7 @@
 
 <p>&nbsp;<p>
 
-Next.js Dashboard — A course with 16 chapters that take you from React to Next.js.
-
-Next.js The React Framework for the Web. 
+Next.js Dashboard — A course with 16 chapters aiming to take you from the React library to Next.js, the React framework for the web. Explore the foundations of Next.js by building a fully functional demo website that uses all of the latest features in this guided course.
 
 Used by some of the world's largest companies, Next.js enables you to create high-quality web applications with the power of React components.
 
