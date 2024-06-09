@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: 'Explore the foundations of Next.js by building a fully functional demo website that uses all of the latest features in this guided course.',
   metadataBase: new URL('https://learn-nextjs-dashboard-jonathanschimpf.vercel.app'),
   openGraph: {
-    images: '/opengraph-image.png',
+    images: '/leet-opengraph-image.png',
   },
 };
 
